@@ -1,14 +1,9 @@
 import React, { Component } from 'react';
 import {
   StyleSheet,
-  Image,
-  Text,
   View,
-  TouchableOpacity,
   NativeModules,
   DeviceEventEmitter,
-  Animated,
-  Easing,
   StatusBar,
   AppState,
 } from 'react-native';

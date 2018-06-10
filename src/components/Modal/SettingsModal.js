@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-  Text,
-  View,
-  TouchableOpacity,
-  StyleSheet,
-  ScrollView,
-} from 'react-native';
+import { Text, StyleSheet, ScrollView } from 'react-native';
 import Overlay from 'react-native-modal-overlay';
 import { colors } from '../../utils';
 import ModalButton from './ModalButton';

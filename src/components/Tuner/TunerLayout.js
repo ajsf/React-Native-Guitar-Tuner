@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Aux from '../../hoc/Aux';
 import SettingsButton from './TunerComponents/SettingsButton';
 import TunerDisplay from './TunerComponents/TunerDisplay';
