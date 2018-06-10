@@ -13,10 +13,6 @@ export default class Strings extends Component {
         {this.props.stringNotes.map((note, i) => {
           let image = null;
           if (this.props.activeString === i) {
-            console.log(
-              'Setting image animation string:',
-              this.props.activeString,
-            );
             image = (
               <Animatable.Image
                 animation="shake"

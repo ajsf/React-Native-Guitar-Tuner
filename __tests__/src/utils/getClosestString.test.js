@@ -9,12 +9,12 @@ const stringFrequencies = [
   { min: 287, max: 371, tuned: 329 },
 ];
 
-test('it returns null for negative frequencies', () => {
+it('returns null for negative frequencies', () => {
   const stringNumber = getClosestString(-1, stringFrequencies);
   expect(stringNumber).toEqual(null);
 });
 
-test('it returns null for frequencies that are below the range of all the strings', () => {
+it('returns null for frequencies that are below the range of all the strings', () => {
   const stringData = getClosestString(
     stringFrequencies[0].min - 0.01,
     stringFrequencies,
@@ -22,7 +22,7 @@ test('it returns null for frequencies that are below the range of all the string
   expect(stringData).toBeNull();
 });
 
-test('it returns null for frequencies that are above the range of all the strings', () => {
+it('returns null for frequencies that are above the range of all the strings', () => {
   const stringData = getClosestString(
     stringFrequencies[5].max + 0.01,
     stringFrequencies,
@@ -30,7 +30,7 @@ test('it returns null for frequencies that are above the range of all the string
   expect(stringData).toBeNull();
 });
 
-test('it returns the correct string number for tuned frequencies', () => {
+it('returns the correct string number for tuned frequencies', () => {
   stringFrequencies.forEach((string, index) => {
     const stringData = getClosestString(string.tuned, stringFrequencies);
     const stringNumber = stringData.number;
@@ -68,7 +68,6 @@ test('it returns the correct string number when the frequency is just above the 
       string.min + 0.000001,
       stringFrequencies,
     );
-    console.log(stringData);
     const stringNumber = stringData.number;
     expect(stringNumber).toEqual(index);
   });
@@ -80,7 +79,6 @@ test('it returns a delta of -75 when the frequency is just above the min frequen
       string.min + 0.000001,
       stringFrequencies,
     );
-    console.log(stringData);
     const delta = stringData.delta;
     expect(delta).toEqual(-75);
   });
