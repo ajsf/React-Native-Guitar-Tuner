@@ -115,7 +115,7 @@ Array [
   <View
     style={
       Object {
-        "borderTopColor": "#3db78b",
+        "borderTopColor": "#81D4FA",
         "borderTopWidth": 5,
         "flex": 1,
         "flexDirection": "row",
@@ -147,7 +147,7 @@ Array [
           Array [
             Object {
               "backgroundColor": "#1f2025",
-              "borderColor": "#f3c556",
+              "borderColor": "#FFD54F",
               "borderRadius": 25,
               "borderWidth": 3,
               "height": 50,
@@ -157,7 +157,8 @@ Array [
               "width": 50,
             },
             Object {
-              "borderColor": "#3db78b",
+              "borderColor": "#81D4FA",
+              "borderWidth": 3,
             },
           ]
         }
@@ -202,7 +203,7 @@ Array [
           Array [
             Object {
               "backgroundColor": "#1f2025",
-              "borderColor": "#f3c556",
+              "borderColor": "#FFD54F",
               "borderRadius": 25,
               "borderWidth": 3,
               "height": 50,
@@ -212,7 +213,8 @@ Array [
               "width": 50,
             },
             Object {
-              "borderColor": "#3db78b",
+              "borderColor": "#81D4FA",
+              "borderWidth": 3,
             },
           ]
         }
@@ -257,7 +259,7 @@ Array [
           Array [
             Object {
               "backgroundColor": "#1f2025",
-              "borderColor": "#f3c556",
+              "borderColor": "#FFD54F",
               "borderRadius": 25,
               "borderWidth": 3,
               "height": 50,
@@ -267,7 +269,8 @@ Array [
               "width": 50,
             },
             Object {
-              "borderColor": "#3db78b",
+              "borderColor": "#81D4FA",
+              "borderWidth": 3,
             },
           ]
         }
@@ -312,7 +315,7 @@ Array [
           Array [
             Object {
               "backgroundColor": "#1f2025",
-              "borderColor": "#f3c556",
+              "borderColor": "#FFD54F",
               "borderRadius": 25,
               "borderWidth": 3,
               "height": 50,
@@ -322,7 +325,8 @@ Array [
               "width": 50,
             },
             Object {
-              "borderColor": "#3db78b",
+              "borderColor": "#81D4FA",
+              "borderWidth": 3,
             },
           ]
         }
@@ -367,7 +371,7 @@ Array [
           Array [
             Object {
               "backgroundColor": "#1f2025",
-              "borderColor": "#f3c556",
+              "borderColor": "#FFD54F",
               "borderRadius": 25,
               "borderWidth": 3,
               "height": 50,
@@ -377,7 +381,8 @@ Array [
               "width": 50,
             },
             Object {
-              "borderColor": "#3db78b",
+              "borderColor": "#81D4FA",
+              "borderWidth": 3,
             },
           ]
         }
@@ -422,7 +427,7 @@ Array [
           Array [
             Object {
               "backgroundColor": "#1f2025",
-              "borderColor": "#f3c556",
+              "borderColor": "#FFD54F",
               "borderRadius": 25,
               "borderWidth": 3,
               "height": 50,
@@ -432,7 +437,8 @@ Array [
               "width": 50,
             },
             Object {
-              "borderColor": "#3db78b",
+              "borderColor": "#81D4FA",
+              "borderWidth": 3,
             },
           ]
         }
