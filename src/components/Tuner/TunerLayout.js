@@ -5,7 +5,6 @@ import TunerDisplay from './TunerComponents/TunerDisplay';
 import Strings from './TunerComponents/Strings';
 
 const TunerLayout = props => {
-  console.log(props);
   return (
     <Aux>
       <SettingsButton

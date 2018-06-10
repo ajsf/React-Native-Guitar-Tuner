@@ -10,9 +10,7 @@ import {
 
 import PropTypes from 'prop-types';
 
-import { colors } from '../../../utils/';
-
-var { height, width } = Dimensions.get('window');
+var { width } = Dimensions.get('window');
 
 export default class TunerDisplay extends Component {
   state = {
@@ -34,7 +32,10 @@ export default class TunerDisplay extends Component {
 
     return (
       <View style={styles.tunerContainer}>
-        <Image source={require('../../../../img/tuner.jpg')} style={styles.tuner} />
+        <Image
+          source={require('../../../../img/tuner.jpg')}
+          style={styles.tuner}
+        />
         <Animated.Image
           source={require('../../../../img/indicator.jpg')}
           style={[styles.indicator, { left: xIndicator }]}

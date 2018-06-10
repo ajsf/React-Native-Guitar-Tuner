@@ -7,11 +7,16 @@ import { colors } from '../../../utils';
 
 export default class Strings extends Component {
   render() {
+    console.log(this.props.activeString);
     return (
       <View style={styles.stringsContainer}>
         {this.props.stringNotes.map((note, i) => {
           let image = null;
-          if (this.props.activeString === i + 1) {
+          if (this.props.activeString === i) {
+            console.log(
+              'Setting image animation string:',
+              this.props.activeString,
+            );
             image = (
               <Animatable.Image
                 animation="shake"
@@ -25,7 +30,6 @@ export default class Strings extends Component {
           } else {
             image = (
               <Image
-                animation="zoomInUp"
                 source={require('../../../../img/string.jpg')}
                 style={styles.string}
               />
@@ -39,10 +43,10 @@ export default class Strings extends Component {
                   styles.noteContainer,
                   {
                     borderColor:
-                      this.props.activeString === i + 1
+                      this.props.activeString === i
                         ? colors.colorPrimary
                         : colors.colorSecondary,
-                    borderWidth: this.props.activeString === i + 1 ? 4 : 3,
+                    borderWidth: this.props.activeString === i ? 4 : 3,
                   },
                 ]}
               >

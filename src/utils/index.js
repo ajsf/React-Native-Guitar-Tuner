@@ -20,7 +20,7 @@ export function getClosestString(freq, stringFrequencies) {
       }
       if (delta > 75) delta = 75;
       if (delta < -75) delta = -75;
-      stringData = { number: length - i, delta };
+      stringData = { number: i, delta };
     }
   }
   return stringData;

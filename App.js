@@ -62,7 +62,9 @@ export default class App extends Component {
 
   componentDidMount() {
     getSelectedInstrument().then(instrument => {
-      this.setState({ instrument });
+      if (instrument) {
+        this.setState({ instrument });
+      }
     });
     DeviceEventEmitter.addListener('frequency', this._frequencyListener);
     AppState.addEventListener('change', this._handleAppStateChange);
@@ -91,6 +93,7 @@ export default class App extends Component {
 
   render() {
     const instrument = instrumentTypes[this.state.instrument];
+    console.log('Selected instrument:', instrument);
     return (
       <View style={styles.container}>
         <StatusBar backgroundColor={colors.background} />
