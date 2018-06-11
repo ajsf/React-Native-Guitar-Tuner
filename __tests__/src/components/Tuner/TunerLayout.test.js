@@ -11,7 +11,9 @@ const config = {
   instrumentName: instrument.displayName,
 };
 
-it('renders correctly', () => {
-  const tree = renderer.create(<TunerLayout {...config} />).toJSON();
-  expect(tree).toMatchSnapshot();
+describe('<TunerLayout />', () => {
+  it('renders correctly', () => {
+    const tree = renderer.create(<TunerLayout {...config} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
 });

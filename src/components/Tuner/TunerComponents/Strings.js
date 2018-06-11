@@ -7,7 +7,6 @@ import { colors } from '../../../utils';
 
 export default class Strings extends Component {
   render() {
-    console.log(this.props.activeString);
     return (
       <View style={styles.stringsContainer}>
         {this.props.stringNotes.map((note, i) => {

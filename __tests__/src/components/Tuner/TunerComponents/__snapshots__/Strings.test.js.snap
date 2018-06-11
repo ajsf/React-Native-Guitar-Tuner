@@ -1,0 +1,352 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Strings /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderTopColor": "#81D4FA",
+      "borderTopWidth": 5,
+      "flex": 1,
+      "flexDirection": "row",
+      "justifyContent": "space-around",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../img/string.jpg",
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#1f2025",
+            "borderColor": "#FFD54F",
+            "borderRadius": 25,
+            "borderWidth": 3,
+            "height": 50,
+            "padding": 10,
+            "position": "absolute",
+            "top": 50,
+            "width": 50,
+          },
+          Object {
+            "borderColor": "#81D4FA",
+            "borderWidth": 3,
+          },
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 19,
+            "textAlign": "center",
+          }
+        }
+      >
+        E
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../img/string.jpg",
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#1f2025",
+            "borderColor": "#FFD54F",
+            "borderRadius": 25,
+            "borderWidth": 3,
+            "height": 50,
+            "padding": 10,
+            "position": "absolute",
+            "top": 50,
+            "width": 50,
+          },
+          Object {
+            "borderColor": "#81D4FA",
+            "borderWidth": 3,
+          },
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 19,
+            "textAlign": "center",
+          }
+        }
+      >
+        A
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../img/string.jpg",
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#1f2025",
+            "borderColor": "#FFD54F",
+            "borderRadius": 25,
+            "borderWidth": 3,
+            "height": 50,
+            "padding": 10,
+            "position": "absolute",
+            "top": 50,
+            "width": 50,
+          },
+          Object {
+            "borderColor": "#81D4FA",
+            "borderWidth": 3,
+          },
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 19,
+            "textAlign": "center",
+          }
+        }
+      >
+        D
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../img/string.jpg",
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#1f2025",
+            "borderColor": "#FFD54F",
+            "borderRadius": 25,
+            "borderWidth": 3,
+            "height": 50,
+            "padding": 10,
+            "position": "absolute",
+            "top": 50,
+            "width": 50,
+          },
+          Object {
+            "borderColor": "#81D4FA",
+            "borderWidth": 3,
+          },
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 19,
+            "textAlign": "center",
+          }
+        }
+      >
+        G
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../img/string.jpg",
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#1f2025",
+            "borderColor": "#FFD54F",
+            "borderRadius": 25,
+            "borderWidth": 3,
+            "height": 50,
+            "padding": 10,
+            "position": "absolute",
+            "top": 50,
+            "width": 50,
+          },
+          Object {
+            "borderColor": "#81D4FA",
+            "borderWidth": 3,
+          },
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 19,
+            "textAlign": "center",
+          }
+        }
+      >
+        B
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../img/string.jpg",
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#1f2025",
+            "borderColor": "#FFD54F",
+            "borderRadius": 25,
+            "borderWidth": 3,
+            "height": 50,
+            "padding": 10,
+            "position": "absolute",
+            "top": 50,
+            "width": 50,
+          },
+          Object {
+            "borderColor": "#81D4FA",
+            "borderWidth": 3,
+          },
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 19,
+            "textAlign": "center",
+          }
+        }
+      >
+        E
+      </Text>
+    </View>
+  </View>
+</View>
+`;
