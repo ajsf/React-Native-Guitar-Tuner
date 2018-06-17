@@ -6,7 +6,8 @@ import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.bridge.ReactContextBaseJavaModule
 import com.facebook.react.bridge.ReactMethod
 import com.facebook.react.modules.core.DeviceEventManagerModule
-import com.guitartuner.frequencydetection.*
+import com.guitartuner.frequencydetection.FFTGeneratorImpl
+import com.guitartuner.frequencydetection.FrequencyDetector
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 
@@ -26,6 +27,7 @@ class RNFrequencyDetectorBridge(reactContext: ReactApplicationContext) : ReactCo
     fun listen() {
         val src = AudioSource().stream()
         val input = src.observeOn(Schedulers.io())
+        detector.open()
         val response = input.map { detector.detectFrequency(it) }.distinctUntilChanged()
         disposable.add(response.subscribe({
             Log.d(TAG, it.toString())
@@ -35,8 +37,8 @@ class RNFrequencyDetectorBridge(reactContext: ReactApplicationContext) : ReactCo
 
     @ReactMethod
     fun stopListening() {
-        detector.close()
         disposable.clear()
+        detector.close()
     }
 
     private fun sendEvent(freq: Float) {

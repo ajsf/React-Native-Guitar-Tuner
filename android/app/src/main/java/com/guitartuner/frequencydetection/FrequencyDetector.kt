@@ -11,6 +11,10 @@ class FrequencyDetector(
         return calculateFrequency(fft)
     }
 
+    fun open() {
+        fftGenerator.open()
+    }
+
     fun close() {
         fftGenerator.close()
     }

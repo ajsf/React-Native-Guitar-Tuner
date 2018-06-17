@@ -4,7 +4,11 @@ import com.paramsen.noise.Noise
 
 class FFTGeneratorImpl(private val fftInSize: Int) : FFTGenerator {
 
-    private val noise = Noise.real().optimized().init(fftInSize, false)
+    private val noise = Noise.real().optimized()
+
+    override fun open() {
+        noise.init(fftInSize, false)
+    }
 
     override fun getFFT(timeseries: FloatArray): FloatArray {
         return noise.fft(timeseries, FloatArray(fftInSize + 2))
