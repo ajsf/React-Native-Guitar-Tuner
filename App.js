@@ -17,7 +17,7 @@ import {
 } from './src/utils/';
 import instrumentTypes from './src/utils/instrumentTypes';
 
-const { FrequencyDetector } = NativeModules;
+const FrequencyDetector = NativeModules.RNFrequencyDetectorBridge;
 
 export default class App extends Component {
   state = {

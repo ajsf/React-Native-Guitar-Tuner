@@ -13,7 +13,7 @@ public class FrequencyDetectorPackage implements ReactPackage {
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         List<NativeModule> nativeModules = new ArrayList<>();
-        nativeModules.add(new FrequencyDetector(reactContext));
+        nativeModules.add(new RNFrequencyDetectorBridge(reactContext));
         return nativeModules;
     }
 
