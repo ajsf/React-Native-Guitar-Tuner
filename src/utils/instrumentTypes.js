@@ -18,7 +18,7 @@ const bass4 = {
     { min: 30, max: 48.55, tuned: 41.2 },
     { min: 48.56, max: 64.21, tuned: 55 },
     { min: 64.22, max: 86.61, tuned: 73.42 },
-    { min: 86.62, max: 140, tuned: 98 },
+    { min: 86.62, max: 110, tuned: 98 },
   ],
 };
 
