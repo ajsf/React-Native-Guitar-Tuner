@@ -29,10 +29,10 @@ class RNFrequencyDetectorBridge(reactContext: ReactApplicationContext) : ReactCo
         val input = src.observeOn(Schedulers.io())
         detector.open()
         val response = input.map { detector.detectFrequency(it) }.distinctUntilChanged()
-        disposable.add(response.subscribe({
+        disposable.add(response.subscribe {
             Log.d(TAG, it.toString())
             sendEvent(it)
-        }))
+        })
     }
 
     @ReactMethod
